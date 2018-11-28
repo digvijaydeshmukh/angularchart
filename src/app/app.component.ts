@@ -101,13 +101,6 @@ export class AppComponent implements OnInit {
     console.log("combineAll", combineAll)
   }
 
-  changeColor(){
-    console.log("bar",this.BarChart)
-      console.log("la",this.BarChart.data.labels)
-      if(this.BarChart.data.labels=='red'){
-        this.BarChart.data.backgroundColor="red";
-      }
-  }
-
+ 
 
 }
